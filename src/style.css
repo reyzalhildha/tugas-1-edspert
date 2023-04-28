@@ -1,0 +1,88 @@
+.hero {
+    background: #2d4059;
+}
+
+.hero > nav {
+    width: 100%;
+    display: grid;
+    position: fixed;
+    background: #2d4059;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero > nav > .logo {
+    padding: 0em 4em;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.hero > nav > .menu {
+    padding: 1em;
+    list-style: none;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    font-style: normal;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.hero > nav > .menu > li {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.hero > nav > .menu > li > p:hover {
+    cursor: pointer;
+    color: #a2a9b0;
+}
+
+.hero > .container-hero {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero > .container-hero > .title-hero {
+    padding: 10em 5em;
+}
+
+.hero > .container-hero > .title-hero > h1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.hero > .container-hero > .title-hero > p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFC;
+}
+
+.hero > .container-hero > .image {  
+    display: grid;
+    align-items: end;
+}
+
+.hero > .container-hero > .image > img {  
+    width: 100%;
+}
+
+.product {
+    background: #EFF4FA;
+    height: 100vh;
+}
