@@ -24,14 +24,15 @@
     padding: 1em;
     list-style: none;
     align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: inline-flex;
+    gap: 4em;
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
     font-style: normal;
     font-family: 'Be Vietnam Pro', sans-serif;
+    justify-content: center;
 }
 
 .hero > nav > .menu > li {
@@ -85,4 +86,66 @@
 .product {
     background: #EFF4FA;
     height: 100vh;
+}
+
+.product > .container-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1em;
+    gap: 1em;
+}
+
+.product > .container-product > .card {
+    background: #2d4059;
+    border-radius: 20px;
+    width: 352px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product > .container-product > .card > .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em 2em;
+    gap: 2em;
+}
+.product > .container-product > .card > .header > .image{
+    display: flex;
+    justify-content: center;
+}
+
+.product > .container-product > .card > .header > .text > h4 {
+    margin: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFCD29;
+}
+
+.product > .container-product > .card > .header > .text > h5 {
+    margin: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.product > .container-product > .card > .header > .text > h6 {
+    margin: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.product > .container-product > .card > .content {
+    background: #FFFFFF;
+    padding: 1em 2em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
