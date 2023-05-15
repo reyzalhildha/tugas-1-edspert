@@ -1,0 +1,186 @@
+.hero {
+    background: #2d4059;
+}
+
+.hero > nav {
+    width: 100%;
+    display: grid;
+    position: fixed;
+    background: #2d4059;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero > nav > .logo {
+    padding: 0em 4em;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.hero > nav > .menu {
+    padding: 1em;
+    list-style: none;
+    align-items: center;
+    display: inline-flex;
+    gap: 4em;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    font-style: normal;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    justify-content: center;
+}
+
+.hero > nav > .menu > li {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.hero > nav > .menu > li > p:hover {
+    cursor: pointer;
+    color: #a2a9b0;
+}
+
+.hero > .container-hero {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero > .container-hero > .title-hero {
+    padding: 10em 5em;
+}
+
+.hero > .container-hero > .title-hero > h1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.hero > .container-hero > .title-hero > p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFC;
+}
+
+.hero > .container-hero > .image {  
+    display: grid;
+    align-items: end;
+}
+
+.hero > .container-hero > .image > img {  
+    width: 100%;
+}
+
+.product {
+    background: #EFF4FA;
+    height: 100vh;
+}
+
+.product > .container-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1em;
+    gap: 1em;
+}
+
+.product > .container-product > .card {
+    background: #2d4059;
+    border-radius: 20px;
+    width: 25em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product > .container-product > .card > .header {
+    display: grid;
+    grid-template-columns: 6em 15em;
+    padding: 1em 2em 0em 2em;
+    gap: 1em;
+}
+.product > .container-product > .card > .header > .image{
+    display: flex;
+    justify-content: center;
+}
+
+.product > .container-product > .card > .header > .text > h4 {
+    margin: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFCD29;
+    margin: 5px 0;
+}
+
+.product > .container-product > .card > .header > .text > h5 {
+    margin: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.product > .container-product > .card > .header > .text > h6 {
+    margin: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 5px 0;
+}
+
+.product > .container-product > .card > .content {
+    background: #FFFFFF;
+    padding: 1em 2em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.product > .container-product > .card > .content > p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0;
+}
+
+.product > .container-product > .card > .content > table {
+    margin-top: 1em;
+}
+
+.product > .container-product > .card > .content > table td:first-child {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.product > .container-product > .card > .content > table td:nth-child(2) {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+}
